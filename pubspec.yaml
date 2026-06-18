@@ -13,3 +13,7 @@ dev_dependencies:
   flutter_lints: ^3.0.0
 flutter:
   uses-material-design: true
+- name: Setup Pages
+  uses: actions/configure-pages@v5
+  with:
+    enablement: true
